@@ -113,6 +113,5 @@ class PrCurveTest(tf.test.TestCase):
     self.assertListEqual(
         [1.0, 1.0, 1.0, 1.0, 0.5, 0.5, 0.5, 0.5, 0.0, 0.0], recall.tolist())
 
-
 if __name__ == "__main__":
   tf.test.main()
